@@ -4,3 +4,14 @@
 applications:
 - name: hello-world2
   mem: 128M
+  ---
+  # We have created a temporary app in the gallery
+  # We have created a delivery pipeline
+  applications:
+  # We have reserved a name/route for your app
+  - name: hello-world2
+    host: hello-world2
+    domain: hcf.uswest1.stackato.net
+    # We have provisioned and bound services
+    services:---
+
